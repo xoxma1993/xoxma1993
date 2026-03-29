@@ -1,6 +1,6 @@
 <div align="center"> 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,30:111827,70:1f2937,100:0ea5e9&text=Bigidron&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=AI%20Products%20%7C%20LLM%20Systems%20%7C%20Developer%20Tools&descAlignY=60&animation=fadeIn" alt="Bigidron banner" />
+<img src="./assets/profile-hero.svg" alt="Bigidron banner" />
 
 [English](#english) • [Русский](#russian) • [Українська](#ukrainian)
 

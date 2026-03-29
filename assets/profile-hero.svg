@@ -1,0 +1,110 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bigidron profile banner</title>
+  <desc id="desc">Animated premium banner for the GitHub profile of Bigidron.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+      <animate attributeName="x1" values="0;220;0" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1280;1060;1280" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="140" y1="80" x2="1120" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 112) rotate(12) scale(260 180)">
+      <stop stop-color="#22d3ee" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 214) rotate(-8) scale(320 220)">
+      <stop stop-color="#8b5cf6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1278" height="318" rx="27" stroke="rgba(148,163,184,0.14)"/>
+
+  <ellipse cx="210" cy="112" rx="260" ry="180" fill="url(#glowLeft)" filter="url(#softBlur)">
+    <animate attributeName="cx" values="210;250;210" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="112;96;112" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1010" cy="214" rx="320" ry="220" fill="url(#glowRight)" filter="url(#softBlur)">
+    <animate attributeName="cx" values="1010;970;1010" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="214;228;214" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g opacity="0.65">
+    <path d="M90 250C220 210 332 198 460 182C596 165 727 124 865 126C1010 128 1118 166 1190 190" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M90 250C220 210 332 198 460 182C596 165 727 124 865 126C1010 128 1118 166 1190 190;
+                M90 232C240 214 344 174 486 164C620 154 731 144 871 150C1019 156 1126 184 1190 206;
+                M90 250C220 210 332 198 460 182C596 165 727 124 865 126C1010 128 1118 166 1190 190"/>
+    </path>
+    <path d="M70 266C204 232 338 222 472 208C606 194 738 164 874 166C1014 168 1128 202 1212 224" stroke="url(#line)" stroke-opacity="0.36" stroke-width="1.1" stroke-linecap="round">
+      <animate attributeName="d" dur="13s" repeatCount="indefinite"
+        values="M70 266C204 232 338 222 472 208C606 194 738 164 874 166C1014 168 1128 202 1212 224;
+                M70 248C210 220 336 238 470 194C610 148 752 160 884 182C1030 206 1132 218 1212 214;
+                M70 266C204 232 338 222 472 208C606 194 738 164 874 166C1014 168 1128 202 1212 224"/>
+    </path>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="170" cy="84" r="4" fill="#67e8f9">
+      <animate attributeName="cy" values="84;70;84" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="248" cy="64" r="3" fill="#ffffff">
+      <animate attributeName="cy" values="64;78;64" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1042" cy="82" r="3.5" fill="#c4b5fd">
+      <animate attributeName="cy" values="82;66;82" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.85;0.25" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1126" cy="108" r="4" fill="#38bdf8">
+      <animate attributeName="cy" values="108;122;108" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="962" cy="252" r="2.8" fill="#ffffff">
+      <animate attributeName="cy" values="252;236;252" dur="5.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.75;0.15" dur="5.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.25">
+    <rect x="72" y="58" width="132" height="28" rx="14" stroke="#67e8f9"/>
+    <rect x="216" y="58" width="176" height="28" rx="14" stroke="#a78bfa"/>
+    <rect x="975" y="238" width="178" height="28" rx="14" stroke="#38bdf8"/>
+  </g>
+
+  <text x="92" y="148" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="0.5" filter="url(#textGlow)">Bigidron</text>
+
+  <text x="94" y="184" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">AI Products  •  LLM Systems  •  Developer Tools</text>
+
+  <text x="94" y="225" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">
+    <tspan>Designing premium interfaces, automations, and AI-native workflows that feel production-ready.</tspan>
+  </text>
+
+  <g transform="translate(930 56)">
+    <rect width="260" height="126" rx="18" fill="rgba(15,23,42,0.52)" stroke="rgba(148,163,184,0.16)"/>
+    <text x="22" y="34" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Current Focus</text>
+    <text x="22" y="62" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">01  AI product surfaces</text>
+    <text x="22" y="84" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">02  LLM routing and tooling</text>
+    <text x="22" y="106" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">03  Premium UX execution</text>
+    <rect x="182" y="22" width="54" height="18" rx="9" fill="#082F49"/>
+    <text x="194" y="35" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">LIVE</text>
+  </g>
+</svg>
