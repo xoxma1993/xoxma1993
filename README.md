@@ -2,9 +2,9 @@
 
 <img src="./assets/profile-hero.svg" alt="Bigidron banner" />
 
-[English](#english) • [Русский](#russian) • [Українська](#ukrainian)
+<img src="./assets/profile-console.svg" alt="Bigidron console panel" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=7ECFFF&center=true&vCenter=true&width=900&lines=AI+Engineer+focused+on+systems+that+ship.;TRON+%7C+EVM+%7C+DeFi+%7C+automation.;Premium+interfaces+for+serious+products." alt="Typing intro" />
+[English](#english) • [Русский](#russian) • [Українська](#ukrainian)
 
 </div>
 
