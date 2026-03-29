@@ -4,7 +4,7 @@
 
 [English](#english) • [Русский](#russian) • [Українська](#ukrainian)
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=900&color=E5E7EB&center=true&vCenter=true&width=900&lines=Building+AI-native+products+that+ship.;Designing+LLM+systems%2C+automation%2C+and+premium+interfaces.;Product-minded+engineering+with+execution+first." alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=7ECFFF&center=true&vCenter=true&width=900&lines=AI+Engineer+focused+on+systems+that+ship.;TRON+%7C+EVM+%7C+DeFi+%7C+automation.;Premium+interfaces+for+serious+products." alt="Typing intro" />
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## English
 
-I build AI-native products, LLM workflows, and developer-facing systems with a focus on execution, usability, and product quality.
+I build AI systems, Web3 products, and developer-facing tooling with a focus on execution, usability, and production-ready quality.
 
 ### Focus
 
